@@ -1,7 +1,7 @@
 {
-    "name": "add-cpp-class",
-    "displayName": "add-cpp-class",
-    "description": "Add a header and source file for a new C++ class",
+    "name": "vscode-add-cpp-class",
+    "displayName": "vscode-add-cpp-class",
+    "description": "VS Code extension to add a header and source file for a new C++ class",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.29.0"
@@ -14,10 +14,12 @@
     ],
     "main": "./out/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.sayHello",
-            "title": "Hello World"
-        }]
+        "commands": [
+            {
+                "command": "extension.sayHello",
+                "title": "Hello World"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "yarn run compile",
