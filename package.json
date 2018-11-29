@@ -1,8 +1,17 @@
 {
     "name": "vscode-add-cpp-class",
-    "displayName": "vscode-add-cpp-class",
+    "displayName": "Add C++ Class",
     "description": "VS Code extension to add a header and source file for a new C++ class",
     "version": "0.0.1",
+    "publisher": "mbise1993",
+    "author": {
+        "name": "Matt Bise",
+        "url": "https://github.com/mbise1993"
+    },
+    "repository": {
+        "url": "https://github.com/mbise1993"
+    },
+    "license": "MIT",
     "engines": {
         "vscode": "^1.29.0"
     },
