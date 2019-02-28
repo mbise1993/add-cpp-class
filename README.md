@@ -1,38 +1,8 @@
 # Add C++ Class
-
 VS Code extension to add a header and source file for a new C++ class.
 
 ## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
+Adds an "Add C++ class" context menu item to folders in the workspace explorer. Selecting the item will prompt you to enter a 
+name for the .h and .cpp files then prompt you to enter a name for the class. Class names may be prefixed with a namespace 
+(e.g. `mynamespace::MyClass`), which will cause the class to be generated inside of the given namespace. The generated class
+will have no members aside from a `default`ed public constructor.
